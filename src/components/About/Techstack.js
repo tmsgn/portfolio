@@ -25,6 +25,10 @@ function Techstack() {
         <div className="tech-icons-text">React.js</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <img src={ReactIcon} alt="react-native" />
+        <div className="tech-icons-text">React Native</div>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <img src={NextIcon} alt="next" />
         <div className="tech-icons-text">Next.js</div>
       </Col>

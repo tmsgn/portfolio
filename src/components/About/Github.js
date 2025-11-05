@@ -16,7 +16,7 @@ function Github() {
       </h1>
       {/* TODO: Replace with your actual GitHub username */}
       <GitHubCalendar
-        username="your-github-username"
+        username="tmsgn"
         blockSize={30}
         blockMargin={10}
         color="#c084f5"

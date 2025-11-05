@@ -8,7 +8,7 @@ function Type() {
         strings: [
           "Full-Stack Developer",
           "React & Next.js",
-          "Mobile App Developer",
+          "React Native Developer",
           "Express.js & Node.js",
           "PostgreSQL & Prisma",
           "Supabase",
