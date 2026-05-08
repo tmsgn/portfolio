@@ -61,7 +61,7 @@ function Home() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/tmsgn"
+                  href="https://github.com/tmsgn1996"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -72,7 +72,7 @@ function Home() {
               </li>
               <li className="social-icons">
                 <a
-                  href="#"
+                  href="https://twitter.com/tmsgn"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
