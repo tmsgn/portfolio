@@ -8,6 +8,7 @@ import Node from "../../Assets/TechIcons/Node.svg";
 import SQL from "../../Assets/TechIcons/SQL.svg";
 import Tailwind from "../../Assets/TechIcons/Tailwind.svg";
 import Git from "../../Assets/TechIcons/Git.svg";
+import { SiFlutter } from "react-icons/si";
 
 function Techstack() {
   return (
@@ -47,6 +48,17 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <img src={Git} alt="git" />
         <div className="tech-icons-text">Git</div>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiFlutter
+          style={{
+            color: "#02569B",
+            padding: "5px",
+            width: "100%",
+            height: "100%",
+          }}
+        />
+        <div className="tech-icons-text">Flutter</div>
       </Col>
     </Row>
   );

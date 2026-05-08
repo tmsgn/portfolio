@@ -12,7 +12,7 @@ function Projects() {
           My Recent <strong className="purple">Projects</strong>
         </h1>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={6} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={process.env.PUBLIC_URL + "/nestmovie.png"}
               isBlog={false}
@@ -22,7 +22,7 @@ function Projects() {
               demoLink="https://nest-movie.vercel.app/"
             />
           </Col>
-          <Col md={6} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={process.env.PUBLIC_URL + "/swiftcart.png"}
               isBlog={false}
@@ -30,6 +30,15 @@ function Projects() {
               description="SwiftCart is a full‑stack e‑commerce application with a feature‑rich admin dashboard. Customers can discover products, manage carts, and place orders, while admins can manage catalog, inventory, and order workflows. Built using React on the frontend and a Node/Express backend with PostgreSQL, SwiftCart focuses on performance, clean UI, and maintainable code structure."
               ghLink="https://github.com/tmsgn/SwiftCart"
               demoLink="https://swiftcart-azure.vercel.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={process.env.PUBLIC_URL + "/flutter-ecommerce.png"}
+              isBlog={false}
+              title="Flutter E-Commerce App"
+              description="A beautiful, high-performance cross-platform e-commerce application built with Flutter. It features state management, clean architecture, fluid animations, and a seamless user experience mimicking top-tier professional shopping apps."
+              ghLink="https://github.com/tmsgn"
             />
           </Col>
         </Row>
